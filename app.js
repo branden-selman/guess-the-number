@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-
+import { getRndInteger } from "../utils.js";
 const comp = document.getElementById('compguess');
 const display = document.getElementById('compdisplay');
 const userGuess = document.querySelector('man');
@@ -10,6 +10,7 @@ let manWins = 0;
 let computerWins = 0;
 let drawCount= 0;
 // set event listeners
+
 
   // get user input
 
