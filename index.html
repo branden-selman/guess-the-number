@@ -26,14 +26,17 @@
         <h2>Can you beat the computer?</h2>
         Guess the number correctly and beat the computer.
         <p>Submit your guess:
-          <input type="text" id="man" placeholder="Enter a number from 1-10" style="width: 160px;"/>
-        </p>
-        <div id='compguess'>
-
-        </div>
-        <p id='compdisplay'>
-            
-        </p>
+          <div class="form">
+            <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
+            <input type="submit" value="Submit guess" class="guessSubmit">
+          </div>
+      
+          <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+          </div>
+      
       </section>
     </main>
     <footer>
